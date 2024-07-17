@@ -18,6 +18,9 @@ This project focuses on predicting the quality of houses in Switzerland using ma
 - [Contributing](#contributing)
 - [License](#license)
 
+### _Note_
+_The original dataset used in this project is very large, which prevents us from uploading it directly to this GitHub repository. You can access the dataset through the following link: [Swiss Houses Dataset on Zenodo](https://zenodo.org/records/7070952#.Y0mACy0RqO0)._
+
 ## Introduction
 This project utilizes various machine learning and data analysis techniques to predict the quality of houses in Switzerland. The dataset contains various attributes describing different aspects of houses, and the objective is to build a model that can accurately predict house quality.
 
