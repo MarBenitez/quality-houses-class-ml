@@ -364,6 +364,10 @@ elif selected_section == "Clustering":
     with colT2:
         st.image('images/clusters_8kmeans.png', use_column_width=True)
 
+    colT1,colT2,colT3 = st.columns([15,70,15])
+    with colT2:
+        st.image('images/UMAP_8kmeans.png', use_column_width=True)
+
 
 # Classification Section
 elif selected_section == "Classification":
