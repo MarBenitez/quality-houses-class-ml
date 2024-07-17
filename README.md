@@ -54,7 +54,7 @@ Classification models were built to predict house quality. Various algorithms we
 A Streamlit application was developed to visualize the results of the analysis and predictions. The application allows users to input their house details and get a predicted quality score.
 
 ## Usage
-To use the Streamlit application:
+To use the Streamlit [*Application*](https://quality-houses-class-ml.streamlit.app/):
 1. Clone this repository.
 2. Install the necessary dependencies.
 3. Run the Streamlit application and input your house details to get a quality prediction.
