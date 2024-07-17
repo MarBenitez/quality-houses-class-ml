@@ -51,7 +51,7 @@ Clustering techniques were used to group similar houses together, providing insi
 Classification models were built to predict house quality. Various algorithms were tested, and the best-performing model was selected.
 
 ## Streamlit Application
-A [*Streamlit application](*https://quality-houses-class-ml.streamlit.app/*) was developed to visualize the results of the analysis and predictions. The application allows users to input their house details and get a predicted quality score.
+A [*Streamlit application*](https://quality-houses-class-ml.streamlit.app/) was developed to visualize the results of the analysis and predictions. The application allows users to input their house details and get a predicted quality score.
 
 ## Usage
 To use the Streamlit:
