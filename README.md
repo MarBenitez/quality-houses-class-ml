@@ -1,5 +1,7 @@
 # House Quality Prediction in Switzerland
 
+![banner](https://keystoneacademic-res.cloudinary.com/image/upload/v1696411312/articles/educationscom/article-hero-image-4239.jpg)
+
 This project focuses on predicting the quality of houses in Switzerland using machine learning and data analysis techniques. The goal is to provide insights into house quality and enable users to predict the quality of their own homes based on specific input values.
 
 ## Table of Contents
