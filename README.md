@@ -7,18 +7,13 @@ This project focuses on predicting the quality of houses in Switzerland using ma
 ## Table of Contents
 - [Introduction](#introduction)
 - [Project Overview](#project-overview)
-- [Data Analysis](#data-analysis)
-- [Machine Learning Workflow](#machine-learning-workflow)
   - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
   - [Data Cleaning](#data-cleaning)
   - [Feature Engineering](#feature-engineering)
   - [Clustering](#clustering)
   - [Classification](#classification)
-- [Streamlit Application](#streamlit-application)
-- [Usage](#usage)
-- [Installation](#installation)
-- [Contributing](#contributing)
-- [License](#license)
+  - [Streamlit Application](#streamlit-application)
+    - [Usage](#usage)
 
 ### _Note_
 _The original dataset used in this project is very large, which prevents us from uploading it directly to this GitHub repository. You can access the dataset through the following link: [Swiss Houses Dataset on Zenodo](https://zenodo.org/records/7070952#.Y0mACy0RqO0)._
@@ -35,36 +30,33 @@ The project includes the following key steps:
 5. Classification
 6. Streamlit Application for visualization and prediction
 
-## Data Analysis
-A thorough Exploratory Data Analysis (EDA) was conducted to understand the dataset better, identify patterns, and detect anomalies. Data cleaning was performed to handle missing values, outliers, and other inconsistencies.
-
-## Machine Learning Workflow
-
-### Exploratory Data Analysis (EDA)
+### 1. Exploratory Data Analysis (EDA)
 EDA involved visualizing the data distribution, understanding relationships between variables, and identifying key features impacting house quality.
 
-### Data Cleaning
+### 2. Data Cleaning
 Data cleaning processes included handling missing values, removing duplicates, and correcting data types to ensure the dataset was ready for analysis.
 
-### Feature Engineering
+### 3. Feature Engineering
 Feature engineering was performed to create new features from existing data, enhancing the model's predictive power. This included creating a new column representing the sum of all columns related to street views.
 
-### Clustering
+### 4. Clustering
 Clustering techniques were used to group similar houses together, providing insights into different categories of house quality.
 
-### Classification
+### 5. Classification
 Classification models were built to predict house quality. Various algorithms were tested, and the best-performing model was selected.
 
-## Streamlit Application
-A [*Streamlit application*](https://quality-houses-class-ml.streamlit.app/) was developed to visualize the results of the analysis and predictions. The application allows users to input their house details and get a predicted quality score.
+### 6. Streamlit Application
+A Streamlit application was developed to visualize the results of the analysis and predictions. The application allows users to input their house details and get a predicted quality score.
 
-## Usage
+#### Usage
 To use the Streamlit:
-1. Clone this repository.
-2. Install the necessary dependencies.
-3. Run the Streamlit application and input your house details to get a quality prediction.
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/house-quality-prediction.git
+1. Your local:
+   
+- Clone this repository.
+- Install the necessary dependencies.
+- Run the Streamlit application and input your house details to get a quality prediction.
+
+2. Link to the app:
+
+  - [App](https://quality-houses-class-ml.streamlit.app/)
