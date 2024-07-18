@@ -397,7 +397,7 @@ elif selected_section == "Classification":
         unsafe_allow_html=True
     )
         # Load the data and model results (replace with actual data loading)
-        df_results = pd.read_csv('data/df_class_disc6_num.csv')
+        df_results = pd.read_csv('data/df_class_disc6.csv')
 
         st.markdown('<div class="subsubheader centered-text"><b>Data discretized overview</b></div>', unsafe_allow_html=True)
         st.table(df_results.drop('apartment_id', axis=1).head())
