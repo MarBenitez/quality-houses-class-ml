@@ -584,7 +584,10 @@ elif selected_section == "User Application":
         return model
 
     # Load the model
-    model = load_compressed_model('rf_model_6C_disc.pkl.gz')
+    model = load_compressed_model('rf_model_6CLUSTERS_disc_num.pkl.gz')
+
+    # model1: rf_model_6CLUSTERS_disc_num.pkl.gz
+    # model2: rf_model_6C_disc.pkl.gz
 
     colT1, colT2, colT3 = st.columns([20, 60, 20])
     with colT2:
