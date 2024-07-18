@@ -417,7 +417,7 @@ elif selected_section == "Classification":
         <div class="centered-text">
             <p>- <b>Logistic Regression</b></p>
             <p>- <b>Random Forest</b></p>
-            <p>- <b>K-Nearest Neighbors</b></p>
+            <p>- <b>K-Nearest Neighbours</b></p>
             <p>- <b>Support Vector Machine</b></p>
             <p>- <b>LightGBM</b></p>
         </div>
