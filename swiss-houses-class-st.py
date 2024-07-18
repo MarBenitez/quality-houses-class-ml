@@ -382,9 +382,27 @@ elif selected_section == "Classification":
     )
 
     # Create tabs for Classification section
-    classification_tabs = st.tabs(["Procedure", "Results"])
+    classification_tabs = st.tabs(["Data", "Procedure", "Results"])
+
+
 
     with classification_tabs[0]:
+        st.markdown('<div class="subheader"><b>Data</b></div>', unsafe_allow_html=True)
+        st.markdown(
+        """
+        <div class="centered-text">
+            <p>We discretized the variables before introducing them into the models in order to make the final application more user friendly.</p>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+        # Load the data and model results (replace with actual data loading)
+        df_results = pd.read_csv('data/df_class_disc6_num.csv')
+
+        st.markdown('<div class="subsubheader centered-text"><b>Data discretized overview</b></div>', unsafe_allow_html=True)
+        st.table(df_results.drop('apartment_id', axis=1).head())
+
+    with classification_tabs[1]:
         st.markdown('<div class="subheader"><b>Procedure</b></div>', unsafe_allow_html=True)
         st.markdown(
         """
@@ -433,25 +451,19 @@ elif selected_section == "Classification":
             st.image('images/azure1.png', caption='Azure Results', use_column_width=True)
 
         
-    with classification_tabs[1]:
+    with classification_tabs[2]:
         st.markdown('<div class="subheader"><b>Results</b></div>', unsafe_allow_html=True)
 
         st.markdown(
         """
         <div class="about-us">
-            <p>Below are the results of the best-performing classification model using discretized features. The Random Forest classifier provided a good balance between accuracy and interpretability..</p>
+            <p>Below are the results of the best-performing classification model using discretized features. The Random Forest classifier provided a good balance between accuracy and interpretability.</p>
             </div>
         </div>
         """, unsafe_allow_html=True
         )
 
-        # Load the data and model results (replace with actual data loading)
-        df_results = pd.read_csv('data/df_class_disc6_num.csv')
 
-        st.markdown('<div class="subsubheader centered-text"><b>Data discretized overview</b></div>', unsafe_allow_html=True)
-        st.table(df_results.drop('apartment_id', axis=1).head())
-
- 
         st.markdown('<div class="subsubheader centered-text"><b>Random Forest Classification Report</b></div>', unsafe_allow_html=True)
         st.markdown(
             """
